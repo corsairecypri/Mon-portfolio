@@ -1,0 +1,152 @@
+
+/*Création de media querries*/
+
+
+@media screen and (max-width : 1366px)
+{
+    .section-infos{
+        width: 500px;
+    }
+
+    .section-infos > p{
+        width :400px;
+    }
+
+    .section-infos, .section-infos > p{
+        display: inline-block;
+        height: auto;
+    }
+
+    .photo-1{margin-top: -19.5%;}     
+    .photo-3{margin-top: -13.5%;}
+}
+
+
+
+@media screen and (max-width : 1166px)
+{
+    #ma-photo{
+        margin-left: 250px;
+    }
+
+    .image-deco{
+        width: 400px;
+        height: auto;
+    }
+
+    .section-infos{
+        width: 450px;
+        height: auto;
+    }
+
+    .photo-1{margin-top: -33%;}  
+    .photo-2{margin-top: -13%;}    
+    .photo-3{margin-top: -23%;}
+    .photo-4{margin-top: -8%;}
+}
+
+
+
+@media screen and  (max-width : 1016px){
+
+    .section-infos{margin-left: 40px;}
+
+    .photo-1{margin-top: -47%;}  
+    .photo-2{margin-top: -25%;}    
+    .photo-3{margin-top: -36%;}
+    .photo-4{margin-top: 4%;}
+
+    .image-deco{margin-left: 30px;}
+}
+
+
+
+@media screen and (max-width : 976px){
+
+    .image-deco, .section-infos, #section-loisirs{
+        display: block;
+        margin: 20px auto 20px auto;
+    }
+}
+
+
+@media screen and (max-width : 870px){
+    #ma-photo {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width : 767px){
+    #ma-photo{
+        display: block;
+        margin: 15px auto 15px auto;
+    }
+
+    header{
+        height: 450px;
+    }
+
+    #h1-header{
+        font-size: 25px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width : 445px){
+    .image-deco, #h1-header, .section-infos{
+        width: 300px;
+    }
+
+    #h1-header{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width : 390px){
+
+    footer > h3, footer > article{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width : 350px){
+
+    footer > h3, footer > article{
+        margin-left: 40px;
+        width: 270px;
+    }
+
+    .div-footer{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width : 330px){
+
+    footer > h3, footer > article{
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+    }
+
+    .div-footer{
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width : 310px){
+    .image-deco, #h1-header, .section-infos{
+        width: 250px;
+    }
+
+}
+
