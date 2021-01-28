@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+/*Le header*/
+
+header{
+    background-image: url(images/Ocean-ile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+#ma-photo{
+    
+    margin-left: 350px; 
+    margin-top: 30px;
+    border: 1px black solid;
+}
+
+
+#h1-header{
+
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline blue;
+
+    
+    background-color: white;
+    border: 1px black solid;
+
+    margin-top: 50px;
+    margin-left: 60px;
+} 
+
+/*Le <main>   */
+
+/*Réglage de la taille des images*/
+
+.image-deco{
+    width : 500px;
+    height: auto;
+    
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+    border: 1px black solid;
+    box-shadow: 6px 6px 9px white, -6px -6px 9px skyblue;
+}
+
+
+
+/*Bordures des parties principales*/
+
+#formation1, #competences2, #experiences-pro3, #loisirs4{
+    border: 1px black solid;
+}
+
+/*Les sections*/
+
+.block-info{
+    margin: auto;
+}
+
+.section-infos, #section-loisirs > ul{
+    width: 600px;
+    display: inline-block;
+    margin: 30px 50px;
+}
+
+
+.block-info > section{
+    display:block;
+    float: right;
+
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+
+    justify-self: center;
+}
+
+section{
+    border: 1px black solid;
+    padding: 5px 10px 5px 10px;
+}
+
+section > h3, article{
+
+    display:block;
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+
+section > article{border: none;}
+
+section > h3{
+    text-align: center;
+
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 4px 4px black;
+}
+
+p{
+    border: 1px blue solid;
+    text-indent:20px;
+
+    text-justify: auto;
+}
+
+h3, p{
+    background-color: white;
+}
+
+
+
+/*Esthétique*/
+
+#formation1{background-color: royalblue;}  #competences2{background-color: limegreen;}
+#experiences-pro3{background-color: silver;}  #loisirs4{background-color: mediumturquoise;}
+
+section{background-color: skyblue;}
+
+article > p:hover{
+    text-decoration: underline blue;
+}
+
+
+/*Réglages de petits problèmes*/
+
+
+#section-loisirs > article{
+    background-color: white;
+}
+
+li{
+    margin-left: 25px;
+    margin-bottom: 6px;
+}
+
+.photo-1{margin-top: -15%;}     .photo-2{margin-top: -2%;}
+.photo-3{margin-top: -10%;}
+
+
+
+/*Le footer*/
+
+
+footer, footer > h3{
+    background-color: darkgray;
+    color: blue;
+}
+
+footer > article, footer > h3{
+    border: 1px solid blue;
+    width: 300px;
+    background-color: white;
+}
+
+footer > h3, footer > article{
+    margin-left: 60px;
+}
+
+footer > h3{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+
+    margin-bottom: 17px;
+}
+
+footer > h3, footer > article{
+    border-radius: 20px;
+} 
+
+footer > article{
+    padding-left: 20px;
+}
+
+footer{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.div-footer{
+    display: inline-block;
+    margin-left: 12px;
+}
+
+i{
+    font-size: 17px;
+}
+
+.fa-house-user{
+    vertical-align: middle;
+    margin-top: -30px;
+}
+
+.fa-phone-alt{
+    vertical-align: middle;
+    margin-top: -75px;
+}
+
+
